@@ -10,7 +10,7 @@ class TodoItem extends Component {
 
     const {id, title} = eachObject
 
-    const deleteFunction = () => {
+    this.deleteFunction = () => {
       onDelete(id)
     }
 
@@ -20,7 +20,7 @@ class TodoItem extends Component {
           <p className="para">{title}</p>
         </div>
         <div>
-          <button onClick={deleteFunction} className="button" type="button">
+          <button onClick={this.deleteFunction} className="button" type="button">
             Delete
           </button>
         </div>
