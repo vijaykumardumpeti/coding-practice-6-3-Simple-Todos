@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  min-width: 500px;
+}
+.para {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  border-radius: 5px;
+
+  cursor: pointer;
+  padding: 7px;
+  margin-left: 10px;
+}
